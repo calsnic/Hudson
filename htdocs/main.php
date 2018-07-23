@@ -287,6 +287,7 @@ if (!$anonymous) {
                                 'useConsent'  => $config->getSetting(
                                     'ConsentModule'
                                 )['useConsent'],
+				'useScreening'=> $config->getSetting('useScreening'),
                                );
     $tpl_data['jsonParams']  = json_encode(
         array(
